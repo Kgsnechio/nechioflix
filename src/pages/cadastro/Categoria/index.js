@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import PageDefault from '../../../components/PageDefault'
 import { Link } from 'react-router-dom'
 import FormField from '../../../components/FormField'
+import Button from '../../../components/Button'
 
 function CadastroCategoria() {
 
@@ -90,9 +91,9 @@ function CadastroCategoria() {
                     
                 </>
 
-                <button>
+                <Button>
                     Cadastrar
-                </button>
+                </Button>
                 
             </form>
 
